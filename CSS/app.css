@@ -38,6 +38,9 @@ Body{
 #menu_container ul li a{
 	text-decoration: none;
 }
+#menu_container ul li a :hover{
+	color:#afafaf;
+}
 .style_font{
 	color:#323232;
 	font-family: Arial;
@@ -116,6 +119,9 @@ Body{
     border-radius: 5%;
     font-size: 0.6rem;
     letter-spacing: 0.2rem;
+}
+.button_design:hover{
+	background-color: grey;
 }
 #button_container{
 	margin-left:8%; 
@@ -345,17 +351,57 @@ Body{
 	height: 0.8rem;
 	background: linear-gradient(90deg, black 70%, gray 30%);
 }
+#html_css:after{
+	    content: '70%';
+    background-color: #565656;
+    padding: 1.4%;
+    height: 102%;
+    margin-top: -2%;
+    margin-left: 62%;
+    font-family: arial;
+    color: black;
+}
 #angular{
 	width: 80%;
 	display: inline-flex;
 	height: 0.8rem;
 	background: linear-gradient(90deg, black 80%, gray 20%);
 }
+#angular:after{
+	    content: '80%';
+    background-color: #565656;
+    padding: 1.4%;
+    height: 102%;
+    margin-top: -2%;
+    margin-left: 72%;
+    font-family: arial;
+    color: black;
+}
+#creativity:after{
+	    content: '60%';
+    background-color: #565656;
+    padding: 1.4%;
+    height: 102%;
+    margin-top: -2%;
+    margin-left: 52%;
+    font-family: arial;
+    color: black;
+}
 #creativity{
 	width: 80%;
 	display: inline-flex;
 	height: 0.8rem;
 	background: linear-gradient(90deg, black 60%, gray 40%);
+}
+#JQUERY:after{
+	    content: '60%';
+    background-color: #565656;
+    padding: 1.4%;
+    height: 102%;
+    margin-top: -2%;
+    margin-left: 52%;
+    font-family: arial;
+    color: black;
 }
 #JQUERY{
 	width: 80%;
