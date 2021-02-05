@@ -470,7 +470,7 @@ Body{
 }
 #inner_portfolio ul{
 	list-style: none;
-	padding-left: 0%;
+	margin-left: 0%;
 }
 #image1{
 	width:24.7rem;
