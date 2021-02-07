@@ -1,8 +1,6 @@
 #content {
 	background-color:white;
 	width:100%;
-	margin-left: 21.6%;
-	width:78.4%;
 	min-height: 0rem;
 	margin-bottom: -2%
 }
@@ -79,16 +77,17 @@ Body{
 	background-color: white;
 }
 #main_inner_home{
-	display: inline-flex;
-	width:100%;
-	box-sizing: border-box;
-	padding: 3rem;
+	    display: inline-flex;
+    width: 44%;
+    box-sizing: border-box;
+    padding: 3rem;
+    background-color: black;
 }
 #info_home{
-	margin-top: -1.5em;
+	/*margin-top: -1.5em;*/
 }
 #inner_info{
-	padding-left: 3rem;
+	padding-left: 2%;
 }
 .font_info{
 	font-weight: 700;
@@ -97,7 +96,7 @@ Body{
     padding-bottom: 4%;
 }
 #list_bio{
-	margin-left: -8.5%
+	margin-left: -2.5%
 }
 #list_bio ul{
 	margin-bottom: 6%;
@@ -169,7 +168,7 @@ Body{
 	display:inline-flex;
 }
 #about_me_text{
-	margin-left:5%;
+	margin-left:9%;
 }
 #about_me_text ul li{
 	list-style: none;
@@ -190,7 +189,7 @@ Body{
 }
 #experience_inner{
     box-sizing: border-box;
-    margin-left: 5%;
+    margin-left: 9%;
 }
 #title_exp{
 	text-align: center;
@@ -268,7 +267,7 @@ Body{
     margin-left: 26.44%;
     margin-top: -11%;
     width: 1%;
-    content: '';
+    /*content: '';*/
     transform: rotate(-45deg);
 }
 .timeline_content_main_left:after{
@@ -281,7 +280,7 @@ Body{
     margin-left: -0.69%;
     margin-top: -11%;
     width: 1%;
-    content: '';
+    /*content: '';*/
     transform: rotate(135deg);
 }
 .timeline_content_a{
@@ -296,7 +295,10 @@ Body{
     margin-left: 62%;
 }
 #educational_main{
-	margin-top: 15%; 
+	margin-top: 15%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 #contaniner_educational{
 	padding-left: 2%;
@@ -324,7 +326,7 @@ Body{
     margin-left: 9%;
     margin-top: -0.5%;
     width: 1%;
-    content: '';
+    /*content: '';*/
     transform: rotate(45deg);
 }
 .button_padd{
@@ -332,7 +334,9 @@ Body{
 	width: 20%;
 }
 #skills_main{
-	margin-top: 15%;
+	margin-top: 5%;
+    width: 85%;
+    margin-left: auto;
 }
 #skills_inner{
 	margin-top: 5%;
@@ -352,14 +356,15 @@ Body{
 	background: linear-gradient(90deg, black 70%, gray 30%);
 }
 #html_css:after{
-	    content: '70%';
+	content: '70%';
     background-color: #565656;
     padding: 1.4%;
-    height: 102%;
-    margin-top: -2%;
+    height: 169%;
+    margin-top: -4%;
     margin-left: 62%;
     font-family: arial;
     color: black;
+    padding-top: 0%;
 }
 #angular{
 	width: 80%;
@@ -368,24 +373,26 @@ Body{
 	background: linear-gradient(90deg, black 80%, gray 20%);
 }
 #angular:after{
-	    content: '80%';
+	content: '80%';
     background-color: #565656;
     padding: 1.4%;
-    height: 102%;
-    margin-top: -2%;
+    height: 169%;
+    margin-top: -4%;
     margin-left: 72%;
     font-family: arial;
     color: black;
+    padding-top: 0%;
 }
 #creativity:after{
-	    content: '60%';
+	content: '60%';
     background-color: #565656;
     padding: 1.4%;
-    height: 102%;
-    margin-top: -2%;
+    height: 169%;
+    margin-top: -4%;
     margin-left: 52%;
     font-family: arial;
     color: black;
+    padding-top: 0%;
 }
 #creativity{
 	width: 80%;
@@ -394,14 +401,15 @@ Body{
 	background: linear-gradient(90deg, black 60%, gray 40%);
 }
 #JQUERY:after{
-	    content: '60%';
+	content: '60%';
     background-color: #565656;
     padding: 1.4%;
-    height: 102%;
-    margin-top: -2%;
+    height: 169%;
+    margin-top: -4%;
     margin-left: 52%;
     font-family: arial;
     color: black;
+    padding-top: 0%;
 }
 #JQUERY{
 	width: 80%;
