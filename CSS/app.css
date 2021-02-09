@@ -449,6 +449,9 @@ Body{
 #work_main{
 	padding-top: 10%;
 }
+#work_sub{
+	width: 10%;
+}
 #list_work{
 	display: inline-flex;
 	list-style: none;
@@ -473,7 +476,7 @@ Body{
 }
 #inner_portfolio{
 	display: inline-flex;
-	margin-left: 6%;
+	margin-left: 10%;
     width: 80%;
 }
 #inner_portfolio ul{
